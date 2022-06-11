@@ -8,3 +8,7 @@ class IncorrectTypeError(Exception):
 
 class NotDocumentError(Exception):
     """Undocument error."""
+
+
+class MessageIsNone(Exception):
+    """Message is None."""
